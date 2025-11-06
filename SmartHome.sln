@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thermostat", "Thermostat\Thermostat.csproj", "{4D7C34C7-8407-4543-86E9-0E3562BF9007}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thermostat.Domain", "Thermostat.Domain\Thermostat.Domain\Thermostat.Domain.csproj", "{BEA990B6-6F1D-4E98-B0B8-1E2D5A569065}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thermostat.DataAccessLayer", "Thermostat.DataAccessLayer\Thermostat.DataAccessLayer\Thermostat.DataAccessLayer.csproj", "{8B8573CF-F337-437D-A0C0-9793C3E4A3EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thermostat.Api", "Thermostat.Api\Thermostat.Api.csproj", "{AAAF71CE-B7A6-4F16-AC7D-0C3DFB54D220}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{7E6597B7-C783-4013-9A25-228227A32150}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thermostat.Domain.Test", "Thermostat.Domain.Test\Thermostat.Domain.Test.csproj", "{3FACA8E9-C4EB-9B6A-8A6D-F5F983226B71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D7C34C7-8407-4543-86E9-0E3562BF9007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7C34C7-8407-4543-86E9-0E3562BF9007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7C34C7-8407-4543-86E9-0E3562BF9007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7C34C7-8407-4543-86E9-0E3562BF9007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA990B6-6F1D-4E98-B0B8-1E2D5A569065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA990B6-6F1D-4E98-B0B8-1E2D5A569065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA990B6-6F1D-4E98-B0B8-1E2D5A569065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA990B6-6F1D-4E98-B0B8-1E2D5A569065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8573CF-F337-437D-A0C0-9793C3E4A3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8573CF-F337-437D-A0C0-9793C3E4A3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8573CF-F337-437D-A0C0-9793C3E4A3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8573CF-F337-437D-A0C0-9793C3E4A3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAAF71CE-B7A6-4F16-AC7D-0C3DFB54D220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAF71CE-B7A6-4F16-AC7D-0C3DFB54D220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAF71CE-B7A6-4F16-AC7D-0C3DFB54D220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAF71CE-B7A6-4F16-AC7D-0C3DFB54D220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FACA8E9-C4EB-9B6A-8A6D-F5F983226B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FACA8E9-C4EB-9B6A-8A6D-F5F983226B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FACA8E9-C4EB-9B6A-8A6D-F5F983226B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FACA8E9-C4EB-9B6A-8A6D-F5F983226B71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E6597B7-C783-4013-9A25-228227A32150} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3FACA8E9-C4EB-9B6A-8A6D-F5F983226B71} = {7E6597B7-C783-4013-9A25-228227A32150}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0F35C4F-C80D-44D0-80D7-EBD23FF25101}
+	EndGlobalSection
+EndGlobal
